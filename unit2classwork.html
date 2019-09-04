@@ -1,0 +1,68 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>unit2classwork</title>
+<script>
+	
+	var firstName; //defines a new variable with global scope
+	
+	var firstName = ""; //define and initialize variable
+	
+	firstName = "david" //  
+	
+	alert(firstName); //display the value of the variable
+	
+	lastName= "huck"; //
+	
+	alert("lastname " + lastName);
+</script>
+
+<script>
+	
+	let counter; //defines a variable with a global script
+	
+	counter = 20; //loads a value	
+	
+	alert("the value of counter: " + counter);
+	
+</script>
+	
+<script>
+	
+ const COURSENUMBER = "WDV221"; //create constant global variable
+	
+ alert(COURSENUMBER);
+	
+ COURSENUMBER = "Intro Javascript"
+	
+ alert("modified " + COURSENUMBER);
+		
+</script>
+<script>
+	
+let totalAmt = 0;
+		
+alert("totalAmt " + totalAmt);
+	
+// block scope is anything inside { }
+	
+{
+	let insideName = "Block" //blockscope
+	alert("inside block: " + insideName);// global scope
+	
+	var outsideName = "Scope"
+	alert("inside block: " + outsideName);
+}
+	
+	
+	//alert("let outside block: " + insideName);
+	alert("var outside block: " + outsideName);
+	
+	
+</script>
+</head>
+
+<body>
+</body>
+</html>
